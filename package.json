@@ -1,0 +1,28 @@
+{
+  "name": "gfproxy",
+  "version": "0.1.0",
+  "description": "Node.js client for NVIDIA GeForce NOW streaming with WebRTC",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "nvidia",
+    "geforce-now",
+    "webrtc",
+    "cloud-gaming",
+    "nodejs"
+  ],
+  "author": "skullbit-web",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.16.0",
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
